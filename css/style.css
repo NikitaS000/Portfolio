@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+body, pre {
+    font-family: 'Bebas Neue', sans-serif;
+}
+.box{
+    max-width: 1540px;
+}
+.wrapper {
+    margin: auto;
+}
+.header {
+    width: 100%;
+    height: 50px;
+    font-size: 24px;
+    background-color: #304040;
+    display: flex;
+    justify-content: center;
+}
+.header ul {
+    display: flex;
+    list-style: none;
+    line-height: 50px;
+}
+.header ul li {
+    margin-right: 10px;
+    color: #FFFFFF;
+}
+/* -------------------- */
+
+.user {
+    width: 400px;
+    height: 400px;
+}
+
+.under-header {
+    width: 100%;
+    background-color: red;
+    display: flex;
+}
+.under-header .box {
+    width: 100%;
+    height: 400px;
+    background-image: url(img/Background.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    color: white;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    position: relative;
+}
+
+.under-header h2{
+    font-size: 64px;
+    font-weight: lighter;
+}
+.under-header h1{
+    font-size: 128px;
+    font-weight: lighter;
+}
+
+.part1{
+    position: absolute;
+    left: 35px;
+    top: 40px;
+}
+.part2{
+    position: absolute;
+    right: 35px;
+    top: 40px;
+}
+
+/* ----------------- */
+.content{
+    color: #C9D1C8;
+}
+.content h1 {
+    font-size: 64px;
+    font-weight: lighter;
+    margin-top: 20px;
+    margin-left: 25px;
+}
+.content p {
+    font-size: 40px;
+    margin-left: 25px;
+}
+.content pre {
+    font-size: 40px;
+}
+.section1 {
+    margin-top: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: center ;
+}
+.section1 .box{
+    display: flex;
+}
+.element1 {
+    width: 800px;
+    height: 350px;
+    background-color: #04202C;
+    border-radius: 40px;
+    margin-right: 70px;
+}
+.element2 {
+    width: 500px;
+    height: 350px;
+    background-color: #5B7065;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.element2 img {
+    width: 300px;
+    height: 300px;
+}
+
+.section2 {
+    width: 100%;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.section2 .element {
+    width: 1250px;
+    height: 450px;
+    background-color: #5B7065;
+    border-radius: 40px;
+    border-left: 15px solid #04202C;
+    border-right: 15px solid #04202C;
+}
+.section2 .element ul li {
+    list-style: none;
+    font-size: 40px;
+    margin-left: 20px;
+}
+
+.section3 {
+    width: 1250px;
+    min-height: 450px;
+    margin-top: 64px;
+    background-color: #5B7065;
+    border-radius: 40px;
+    border-left: 15px solid #04202C;
+    border-right: 15px solid #04202C;
+}
+.section3 pre {
+    float: left;
+    font-size: 23px;
+}
+
+.section4 {
+    width: 100%;
+}
+.section4 .part1 {
+    width: 620px;
+
+}
+.section4 .element {
+    width: 626px;
+    height: 835px;
+    background-image: url(img/Background.png);
+    background-size: cover;
+    background-position: center;
+    background-color: red;
+}
