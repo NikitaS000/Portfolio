@@ -11,6 +11,9 @@ body {
 body, pre {
     font-family: 'Bebas Neue', sans-serif;
 }
+.page {
+    width:1440px;
+}
 .box{
     max-width: 1540px;
 }
